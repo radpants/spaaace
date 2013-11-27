@@ -1,3 +1,5 @@
+var game = new Game();
+
 $(function(){
 	
 	function RenderTemplate(template, options)

@@ -1,3 +1,4 @@
+
 var Game = gamecore.Base.extend("Game",
 {
 	
@@ -11,10 +12,6 @@ var Game = gamecore.Base.extend("Game",
 		{
 			this.stars.push( new Star() );
 		}
-	},
+	}
 	
 });
-
-// ----------------------------------------------------
-
-var game = new Game();

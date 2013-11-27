@@ -7,10 +7,12 @@ var Templates = {
 	
 	Welcome: {
 		
-		html: "<div>"
-		+ "<h1>Welcome</h1>"
-		+ Link("begin", "Begin")
-		+ Link("hello", "Say Hi"),
+		html: "<!-- Begin template: Welcome -->"
+        + "<div>"
+            + "<h1>Welcome</h1>"
+            + Link("begin", "Begin")
+            + Link("hello", "Say Hi")
+        + "</div>",
 		
 		actions: {
 			"begin" : function(e){
